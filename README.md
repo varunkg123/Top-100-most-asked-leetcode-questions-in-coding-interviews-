@@ -2,7 +2,7 @@
 
 
 ### Question 1
-Arrays   Bit Manipulation
+Arrays,Bit Manipulation
 
 Question:
 **[Missing Number](https://leetcode.com/problems/missing-number/description/)**
