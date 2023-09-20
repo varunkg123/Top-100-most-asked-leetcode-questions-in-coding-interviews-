@@ -5,18 +5,21 @@
 Arrays   Bit Manipulation
 
 Question:
-[Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200 (both included).
-The numbers obtained should be printed in a comma-separated sequence on a single line.](https://leetcode.com/problems/missing-number/description/)
-
-Hints: 
-Consider use range(#begin, #end) method
-
+**[Missing Number](https://leetcode.com/problems/missing-number/description/)
+****
+Companies:** Amazon,Apple,Google,Microsoft,Bloomberg,Uber,Facebook,Adobe,tcs,Yahoo
 Solution:
-```python
-l=[]
-for i in range(2000, 3201):
-    if (i%7==0) and (i%5!=0):
-        l.append(str(i))
-
-print(','.join(l))
+```class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+        int n=nums.size();
+        for(int i=0;i<n;i++){
+            if(nums[i]!=i){
+                return i;
+            }
+        }
+        return n;
+    }
+};
 ```
