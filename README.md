@@ -1,8 +1,18 @@
 # Top-100-most-asked-leetcode-questions-in-coding-interviews-
 
 
+### Question 1
+Arrays   Bit Manipulation
 
-```
+Question:
+[Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200 (both included).
+The numbers obtained should be printed in a comma-separated sequence on a single line.](https://leetcode.com/problems/missing-number/description/)
+
+Hints: 
+Consider use range(#begin, #end) method
+
+Solution:
+```python
 l=[]
 for i in range(2000, 3201):
     if (i%7==0) and (i%5!=0):
@@ -10,33 +20,3 @@ for i in range(2000, 3201):
 
 print(','.join(l))
 ```
-
-| Problem       | Topics        |  Difficulty|Companies|
-| ------------- | ------------- | -------------|-----------|
-| Contains Duplicate  | Arrays   |Easy|Amazon,Apple,Google,Microsoft,Bloomberg,Uber,Facebook,Adobe,tcs,Yahoo|
-| Content Cell  | Content Cell  |
-_______________________________________________________________________________________________________________________________
-|Contains Duplicate   |   Arrays         |          | |
-|	
-Missing Number                                                Arrays,Bit Manipulation                     Easy                                   Amazon,Bloomberg,Microsoft,Adobe,Yahoo
-	
-Find All Numbers Disappeared in an Array
-Arrays
-Easy
-Facebook
-	
-Single Number
-Arrays
-Bit Manipulation
-Easy
-GoogleAmazonAppleBloombergAdobeZohoYandexYahoo
-	
-Climbing Stairs
-Dynamic Programming
-Easy
-AmazonGoogleAdobeBloombergYahooZohoAppleMicrosoftUberSwiggyAccentureQualcommNagarro
-	
-Best Time to Buy and Sell Stock
-Greedy
-Easy
-AmazonAdobeAppleYandexGoogleMicrosoftFacebookBloombergUberIBMZohoGoldman SachsBoltMorgan StanleyWalmart LabsIntel
