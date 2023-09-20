@@ -1,7 +1,12 @@
 # Top-100-most-asked-leetcode-questions-in-coding-interviews-
+```
+l=[]
+for i in range(2000, 3201):
+    if (i%7==0) and (i%5!=0):
+        l.append(str(i))
 
-
-
+print(','.join(l))
+```
 Contains Duplicate                                            Arrays                                      Easy                                   Amazon,Apple,Google,Microsoft,Bloomberg,Uber,Facebook,Adobe,tcs,Yahoo
 	
 Missing Number                                                Arrays,Bit Manipulation                     Easy                                   Amazon,Bloomberg,Microsoft,Adobe,Yahoo
