@@ -8,6 +8,7 @@ Question:
 **[Missing Number](https://leetcode.com/problems/missing-number/description/)**
 
 **Companies:** Amazon,Apple,Google,Microsoft,Bloomberg,Uber,Facebook,Adobe,tcs,Yahoo
+
 Solution:
 ```class Solution {
 public:
