@@ -1,4 +1,7 @@
 # Top-100-most-asked-leetcode-questions-in-coding-interviews-
+
+
+
 ```
 l=[]
 for i in range(2000, 3201):
@@ -7,8 +10,14 @@ for i in range(2000, 3201):
 
 print(','.join(l))
 ```
-Contains Duplicate                                            Arrays                                      Easy                                   Amazon,Apple,Google,Microsoft,Bloomberg,Uber,Facebook,Adobe,tcs,Yahoo
-	
+
+| Problem       | Topics        |  Difficulty|Companies|
+| ------------- | ------------- | -------------|-----------|
+| Contains Duplicate  | Arrays   |Easy|Amazon,Apple,Google,Microsoft,Bloomberg,Uber,Facebook,Adobe,tcs,Yahoo|
+| Content Cell  | Content Cell  |
+_______________________________________________________________________________________________________________________________
+|Contains Duplicate   |   Arrays         |          | |
+|	
 Missing Number                                                Arrays,Bit Manipulation                     Easy                                   Amazon,Bloomberg,Microsoft,Adobe,Yahoo
 	
 Find All Numbers Disappeared in an Array
