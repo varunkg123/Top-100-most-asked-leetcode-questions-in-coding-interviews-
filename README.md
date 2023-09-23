@@ -83,6 +83,7 @@ Array,Map,Bit Manipulation
 Question:
 **[Single Number](https://leetcode.com/problems/single-number/description/)
 **
+
 **Companies:** Google,Amazon,Apple,Bloomberg,Adobe,Zoho,Yandex,Yahoo
 
 Solution:
@@ -123,10 +124,12 @@ Dynamic Programming
 
 Question:
 **[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)**
+
 **Companies:** 	
 Amazon,Google,Adobe,Bloomberg,Yahoo,Zoho,Apple,Microsoft,Uber,Swiggy,Accenture,Qualcomm,Nagarro
+
 Solution:
-####Approach 1: Recursion 
+#### Approach 1: Recursion 
 Explanation: The recursive solution uses the concept of Fibonacci numbers to solve the problem. It calculates the number of ways to climb the stairs by 
 recursively calling the climbStairs function for (n-1) and (n-2) steps. However, this solution has exponential time complexity (O(2^n)) due to redundant 
 calculations.
@@ -140,7 +143,7 @@ public:
     }
 };
 ```
-####Approach 2: Memoization
+#### Approach 2: Memoization
 Explanation: The memoization solution improves the recursive solution by introducing memoization, which avoids redundant calculations. We use an unordered map 
 (memo) to store the already computed results for each step n. Before making a recursive call, we check if the result for the given n exists in the memo. If it 
 does, we return the stored value; otherwise, we compute the result recursively and store it in the memo for future reference.
@@ -162,7 +165,7 @@ public:
     }
 };
 ```
-####Approach 3: Tabulation
+#### Approach 3: Tabulation
 Explanation: The tabulation solution eliminates recursion and uses a bottom-up approach to solve the problem iteratively. It creates a DP table (dp) of size n+1 
 to store the number of ways to reach each step. The base cases (0 and 1 steps) are initialized to 1 since there is only one way to reach them. Then, it iterates 
 from 2 to n, filling in the DP table by summing up the values for the previous two steps. Finally, it returns the value in the last cell of the DP table, which 
