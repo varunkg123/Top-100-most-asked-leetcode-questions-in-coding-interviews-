@@ -31,6 +31,7 @@ Question:
 **[First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)**
 
 **Companies:** Amazon
+
 Solution:
 ```class Solution {
 public:
@@ -58,6 +59,7 @@ Question:
 **[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)**
 
 **Companies:** Facebook
+
 Solution:
 ```class Solution {
 public:
@@ -82,6 +84,7 @@ Question:
 **[Single Number](https://leetcode.com/problems/single-number/description/)
 **
 **Companies:** Google,Amazon,Apple,Bloomberg,Adobe,Zoho,Yandex,Yahoo
+
 Solution:
 #### Bit Manipulation
 ```class Solution {
